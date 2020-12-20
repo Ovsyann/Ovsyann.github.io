@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(/images/MainBackground.jpg) repeat;
+    background-size: 100% auto;
+}
+.Layout{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: rgba(4, 160, 165, 0.226);
+    align-self: center;
+    padding: 1em; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    width: 80%;
+    color: white;
+}
+.MainMenu ul li{
+    /* Отображать как строчный элемент */
+    margin-right: 0em; /* Отступ слева */
+    background-color:rgba(0, 0, 0, 0.329);
+    padding: 0.5em; /* Поля вокруг текста */
+}
+.MainMenu ul li:hover{
+    background-color: rgba(5, 20, 90, 0.993);
+}
+.MainMenu ul li a{
+    text-decoration-line: none;
+    text-decoration-color: none;
+    color: rgb(109, 195, 201);
+}
+.MainContentSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+.PageTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+img{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+.ProfitList li{
+    margin-top: 1em;
+}

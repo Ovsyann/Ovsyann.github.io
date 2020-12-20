@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("/images/stones.png") repeat;
+    background-size: auto;
+}
+.Layout{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    background-color: rgba(0, 7, 7, 0.877);
+    align-self: center;
+    padding: 1em; /* Поля вокруг текста */
+    margin: auto; /* Выравниваем по центру */
+    width: 80%;
+    color: white;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-self: center;
+    /*вынести*/
+}
+.MainMenu ul{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0em;
+    flex-wrap: wrap;
+    /*вынести*/
+}
+.MainMenu ul li{
+    /* Отображать как строчный элемент */
+    margin-right: 0em; /* Отступ слева */
+    background-color:rgba(0, 0, 0, 0.329);
+    padding: 0.5em; /* Поля вокруг текста */
+}
+.MainMenu ul li:hover{
+    background-color: rgba(0, 0, 0, 0.993);
+}
+.MainMenu ul li a{
+    text-decoration-line: none;
+    text-decoration-color: none;
+    color: rgb(109, 195, 201);
+}
+.MainContentSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+.PageTitle{
+    margin: auto;
+}
+.contents{
+/*вынести*/
+    font-size: 1.5em;
+    margin:auto;
+    padding: 1em;
+    padding-top: 0.1em;
+    background-color:rgba(0, 0, 0, 0.329);
+}
+.full-country-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.country-image{
+    margin-right: 0.5em;
+}
+td{
+    padding-top:0.3em;
+    color:white;
+}
